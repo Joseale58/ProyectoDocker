@@ -1,4 +1,4 @@
-FROM UBUNTU
+FROM ubuntu
 EXPOSE 80
 RUN apt update
 RUN apt install apache2 -y
